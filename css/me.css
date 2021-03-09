@@ -1,0 +1,441 @@
+
+#menulink a
+{
+	display: inline-block;
+	padding-top: 10px;
+	padding-right: 20px;
+	color: gray;
+}
+#menulink a:hover{
+	color: blue;
+}
+
+#profile img
+{
+	width:1800px;
+	height: 500px;
+	object-fit: cover;
+	margin-left: -15px;
+	position: relative;
+}
+#abs1{
+	position: absolute;
+	top: 120px;
+	left: 100px;	
+}
+#abs1 h3{
+	color: white;
+	font-size: 70px;
+}
+#abs1 p{
+	color: white;
+	font-size: 30px;
+}
+#abs1 b{
+	color: white;
+}
+#abs1 .btn{
+	border-radius: 30px;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+#abs1 #bar{
+	position: absolute;
+	top: 330px;
+	left: 0px;
+	height: 100px;
+	width: 1150px;
+	background-color: lightgray;
+	border-radius: 150px;
+	color: gray;
+
+}
+
+#abs1 #bar .imag1{
+	left: 20px;
+	bottom: 15px;
+	height: 90px;
+	width: 200px;
+	object-fit: contain;
+
+
+	
+}
+#abs1 #bar .imag2{
+	left: 40px;
+	bottom: 15px;
+	height: 90px;
+	width: 150px;
+	object-fit: contain;
+	
+}
+#abs1 #bar .imag3{
+	left: 35px;
+	bottom: 15px;
+	height: 70px;
+	width: 100px;
+	object-fit: contain;
+
+	
+}
+#abs1 #bar .imag4{
+	left: 45px;
+	bottom: 15px;
+	height: 70px;
+	width: 100px;
+	object-fit: contain;
+}
+#abs1 #bar .imag5{
+	left: 30px;
+	bottom: 15px;
+	height: 70px;
+	width: 150px;
+	object-fit: contain;
+
+}
+
+
+
+#rela{
+	padding-top: 150px;
+}
+#rela img{
+	padding-top: 60px;
+}
+#rela #line{
+	border-bottom: 2px solid green;
+	width: 100px;
+}
+
+#rela .btn1{
+	border-radius: 30px;
+	padding: 10px 40px 10px 40px;
+}
+#rela .btn2{
+	border-radius: 30px;
+	padding: 10px 40px 10px 40px;
+}
+#line{
+	border-bottom: 2px solid green;
+	width: 120px;
+}
+#submenu {
+	margin-top: 160px;
+	margin-left: 100px;
+}
+/***********card section*************/
+/*.container {
+  position: relative;
+  
+  }*/
+
+  .overlay1 {
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 100%;
+  	width: 100%;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: #E9766B;
+  }
+
+  a .overlay1:hover {
+  	opacity: .8;
+  }
+
+  .text1 {
+  	color: white;
+  	font-size: 20px;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	-webkit-transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+  }
+  /****************card 2**************/
+  .overlay2 {
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 100%;
+  	width: 100%;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: #E9766B;
+  }
+
+  a .overlay2:hover {
+  	opacity: .8;
+  }
+
+  .text2 {
+  	color: white;
+  	font-size: 20px;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	-webkit-transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+  }
+  /********card 3***********/
+  .overlay3 {
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 100%;
+  	width: 100%;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: #E9766B;
+  }
+
+  a .overlay3:hover {
+  	opacity: .8;
+  }
+
+  .text3 {
+  	color: white;
+  	font-size: 20px;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	-webkit-transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+  }
+  /****************card 4*******************/
+  .overlay4 {
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 100%;
+  	width: 100%;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: #E9766B;
+  }
+
+  a .overlay4:hover {
+  	opacity: .8;
+  }
+
+  .text4 {
+  	color: white;
+  	font-size: 20px;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	-webkit-transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+  }
+  /****************end card*************************/
+  #line1{
+  	border-bottom: 2px solid green;
+  	width: 200px;
+  }
+  /*******************experience box*********************/
+  
+  #box1{
+  	border-radius: 15px;
+  	box-sizing: border-box;
+  	background-color: #F9F9FF;
+  	position: relative;
+  }
+  #box1:hover{
+  	background-color: #90ACD1;
+  	color: white;
+  }
+  .btnabsulate1 .btn{
+  	position: absolute;
+  	top: 35px;
+  	right: 30px;
+  	border-radius: 30px;
+  	padding: 12px;
+  	background-color: white;
+  	color: black;
+  }
+  #box2{
+  	border-radius: 15px;
+  	box-sizing: border-box;
+  	background-color: #F9F9FF;
+  	position: relative;
+  }
+  #box2:hover{
+  	background-color: #90ACD1;
+  	color: white;
+  }
+  .btnabsulate2 .btn{
+  	position: absolute;
+  	top: 35px;
+  	right: 30px;
+  	border-radius: 30px;
+  	padding: 12px 20px;
+  	background-color: white;
+  	color: black;
+  }
+  #box3{
+  	border-radius: 15px;
+  	box-sizing: border-box;
+  	background-color: #F9F9FF;
+  	position: relative;
+  }
+  #box3:hover{
+  	background-color: #90ACD1;
+  	color: white;
+  }
+  .btnabsulate3 .btn{
+  	position: absolute;
+  	top: 35px;
+  	right: 30px;
+  	border-radius: 30px;
+  	padding: 12px 20px;
+  	background-color: white;
+  	color: black;
+  }
+  #box4{
+  	border-radius: 15px;
+  	box-sizing: border-box;
+  	background-color: #F9F9FF;
+  	position: relative;
+  }
+  #box4:hover{
+  	background-color: #90ACD1;
+  	color: white;
+  }
+  .btnabsulate4 .btn{
+  	position: absolute;
+  	top: 35px;
+  	right: 30px;
+  	border-radius: 30px;
+  	padding: 12px 20px;
+  	background-color: white;
+  	color: black;
+  }
+  /*******************experience box*********************/
+
+  #line2{
+  	border-bottom: 2px solid green;
+  	width: 150px;
+  }
+  /*******************last card section**********************/
+  
+  .card .lastcard1{
+  	height: 400px;
+  	background-color: #E2A599;
+  	color: white;
+  	padding: 70px 30px;
+  	transition: transform .2s ease;
+  }
+  .card .lastcard1 i{
+  	font-size: 30px;
+  }
+  .card .lastcard1:hover{
+  	-ms-transform: scale(1.1); 
+  	-webkit-transform: scale(1.1);
+  	transform: scale(1.1); 
+  }
+  .card .lastcard2{
+  	height: 400px;
+  	background-color: #715F69;
+  	color: white;
+  	padding: 70px 30px;
+  	transition: transform .2s ease;
+  }
+  .card .lastcard2 i{
+  	font-size: 30px;
+  }
+  .card .lastcard2:hover{
+  	-ms-transform: scale(1.1);
+  	-webkit-transform: scale(1.1);
+  	transform: scale(1.1); 
+  }
+  .card .lastcard3{
+  	height: 400px;
+  	background-color: #E45447;
+  	color: white;
+  	padding: 70px 30px;
+  	transition: transform .2s ease;
+  }
+  .card .lastcard3 i{
+  	font-size: 30px;
+  }
+  .card .lastcard3:hover{
+  	-ms-transform: scale(1.1); 
+  	-webkit-transform: scale(1.1); 
+  	transform: scale(1.1); 
+  }
+  .card .lastcard4{
+  	height: 400px;
+  	background-color: #90ACD1;
+  	color: white;
+  	padding: 70px 30px;
+  	transition: transform .2s ease;
+  }
+  .card .lastcard4 i{
+  	font-size: 30px;
+  }
+  .card .lastcard4:hover{
+  	-ms-transform: scale(1.1); 
+  	-webkit-transform: scale(1.1); 
+  	transform: scale(1.1); 
+  }
+  /*******************last card section**********************/
+  #line3{
+  	border-bottom: 2px solid green;
+  	width: 120px;
+  }
+  /*************************footer*******************************/
+ 
+#footerlink a{
+	padding-right: 8px;	
+	color: white;
+}
+#footerlink a:hover{
+	
+	color: blue;
+}
+ 
+  #footericon a i{
+
+  	font-size: 20px;
+  	height: 50px;
+  	width: 50px;
+  	padding-top: 15px;
+  	border-radius:50%;
+  	background-color: white;
+  	color: blue; 
+  }
+  #footericon a i:hover{
+  	background-color: #021017;
+  	color: #EA1E70;
+
+  }
+   #footericon a{
+  	padding-right: 15px;
+  }
+  .foot{
+  	padding: 100px 100px;
+  }
+  p{
+  	padding-top: 20px;
+  }
+
+
+
+  /************************* end footer******************************}
